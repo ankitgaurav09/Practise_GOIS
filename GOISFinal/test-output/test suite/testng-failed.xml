@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [test suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="PkgTestNg.NewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- PkgTestNg.NewTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [test suite] -->

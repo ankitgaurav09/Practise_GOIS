@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Ank1">
+    <classes>
+      <class name="automationFramework.MultiBrowser"/>
+      <class name="PkgTestNg.NewTest"/>
+      <class name="automationFramework.MultiBrowser1"/>
+      <class name="automationFramework.TestNg1"/>
+      <class name="automationFramework.TesnNg2"/>
+    </classes>
+  </test> <!-- Ank1 -->
+</suite> <!-- Suite -->

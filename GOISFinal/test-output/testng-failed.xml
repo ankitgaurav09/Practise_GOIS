@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automationFramework.MultiBrowser">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- automationFramework.MultiBrowser -->
+      <class name="PkgTestNg.NewTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- PkgTestNg.NewTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="FirefoxTest1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="automationFramework.MultiBrowser">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- automationFramework.MultiBrowser -->
+      <class name="PkgTestNg.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="f1"/>
+        </methods>
+      </class> <!-- PkgTestNg.NewTest -->
+    </classes>
+  </test> <!-- FirefoxTest1(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
