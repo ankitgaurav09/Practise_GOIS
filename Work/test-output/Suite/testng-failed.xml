@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.TestCase1">
+        <methods>
+          <include name="AddCstmrTest"/>
+          <include name="beforeClass"/>
+          <include name="configBeforeMtd"/>
+        </methods>
+      </class> <!-- testCases.TestCase1 -->
+      <class name="testCases.TrailTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.TrailTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

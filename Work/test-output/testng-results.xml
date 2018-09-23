@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="119138" started-at="2018-02-06T14:10:47Z" finished-at="2018-02-06T14:12:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="119138" started-at="2018-02-06T14:10:47Z" finished-at="2018-02-06T14:12:47Z">
+      <class name="testCases.TestCase1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.TestCase1@5ca609]" name="beforeClass" is-config="true" duration-ms="41702" started-at="2018-02-06T19:40:47Z" finished-at="2018-02-06T19:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:testCases.TestCase1@5ca609]" name="configBeforeMtd" is-config="true" duration-ms="38886" started-at="2018-02-06T19:41:29Z" finished-at="2018-02-06T19:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="AddCstmrTest()[pri:0, instance:testCases.TestCase1@5ca609]" name="AddCstmrTest" duration-ms="37744" started-at="2018-02-06T19:42:08Z" finished-at="2018-02-06T19:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCstmrTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:testCases.TestCase1@5ca609]" name="configAfterMtd" is-config="true" duration-ms="755" started-at="2018-02-06T19:42:46Z" finished-at="2018-02-06T19:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMtd -->
+        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:testCases.TestCase1@5ca609]" name="configAfterclass" is-config="true" duration-ms="1" started-at="2018-02-06T19:42:47Z" finished-at="2018-02-06T19:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterclass -->
+      </class> <!-- testCases.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
