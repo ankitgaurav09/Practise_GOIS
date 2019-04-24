@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="automationFramework.TestNg1">
+      <class name="PkgTestNg.NewTest">
         <methods>
           <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="f1"/>
         </methods>
-      </class> <!-- automationFramework.TestNg1 -->
+      </class> <!-- PkgTestNg.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

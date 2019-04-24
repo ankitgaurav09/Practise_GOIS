@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="119138" started-at="2018-02-06T14:10:47Z" finished-at="2018-02-06T14:12:47Z">
+  <suite name="Suite" duration-ms="129063" started-at="2019-03-31T17:23:33Z" finished-at="2019-03-31T17:25:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="119138" started-at="2018-02-06T14:10:47Z" finished-at="2018-02-06T14:12:47Z">
-      <class name="testCases.TestCase1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.TestCase1@5ca609]" name="beforeClass" is-config="true" duration-ms="41702" started-at="2018-02-06T19:40:47Z" finished-at="2018-02-06T19:41:29Z">
+    <test name="Test1" duration-ms="85194" started-at="2019-03-31T17:23:33Z" finished-at="2019-03-31T17:24:58Z">
+      <class name="testCases.NewTestBrowserSession">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.NewTestBrowserSession@193948d]" name="beforeMethod" is-config="true" duration-ms="30" started-at="2019-03-31T22:53:33Z" finished-at="2019-03-31T22:53:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:testCases.TestCase1@5ca609]" name="configBeforeMtd" is-config="true" duration-ms="38886" started-at="2018-02-06T19:41:29Z" finished-at="2018-02-06T19:42:08Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:testCases.NewTestBrowserSession@193948d]" name="f1" duration-ms="45196" started-at="2019-03-31T22:53:33Z" finished-at="2019-03-31T22:54:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="AddCstmrTest()[pri:0, instance:testCases.TestCase1@5ca609]" name="AddCstmrTest" duration-ms="37744" started-at="2018-02-06T19:42:08Z" finished-at="2018-02-06T19:42:46Z">
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.NewTestBrowserSession@193948d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T22:54:18Z" finished-at="2019-03-31T22:54:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddCstmrTest -->
-        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:testCases.TestCase1@5ca609]" name="configAfterMtd" is-config="true" duration-ms="755" started-at="2018-02-06T19:42:46Z" finished-at="2018-02-06T19:42:47Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.NewTestBrowserSession@193948d]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-03-31T22:54:18Z" finished-at="2019-03-31T22:54:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAfterMtd -->
-        <test-method status="PASS" signature="configAfterclass()[pri:0, instance:testCases.TestCase1@5ca609]" name="configAfterclass" is-config="true" duration-ms="1" started-at="2018-02-06T19:42:47Z" finished-at="2018-02-06T19:42:47Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:testCases.NewTestBrowserSession@193948d]" name="f2" duration-ms="39847" started-at="2019-03-31T22:54:18Z" finished-at="2019-03-31T22:54:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- configAfterclass -->
-      </class> <!-- testCases.TestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.NewTestBrowserSession@193948d]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-03-31T22:54:58Z" finished-at="2019-03-31T22:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.NewTestBrowserSession -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="43466" started-at="2019-03-31T17:24:58Z" finished-at="2019-03-31T17:25:42Z">
+      <class name="testCases.Test_TestNg1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.Test_TestNg1@3884b2]" name="beforeMethod" is-config="true" duration-ms="43423" started-at="2019-03-31T22:54:58Z" finished-at="2019-03-31T22:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testCases.Test_TestNg1@3884b2]" name="f" duration-ms="7" started-at="2019-03-31T22:55:42Z" finished-at="2019-03-31T22:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.Test_TestNg1@3884b2]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T22:55:42Z" finished-at="2019-03-31T22:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testCases.Test_TestNg1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

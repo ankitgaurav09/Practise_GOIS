@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testCases.TestCase1">
+      <class name="testCases.Test_TestNg1">
         <methods>
-          <include name="AddCstmrTest"/>
-          <include name="configAfterMtd"/>
-          <include name="configAfterclass"/>
-          <include name="beforeClass"/>
-          <include name="configBeforeMtd"/>
+          <include name="beforeMethod"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- testCases.TestCase1 -->
+      </class> <!-- testCases.Test_TestNg1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

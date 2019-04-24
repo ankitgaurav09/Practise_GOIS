@@ -48,12 +48,12 @@ public class TestNg1 {
   }
   
   @BeforeMethod
-  public void beforeClass() {
+  public void beforemethod() {
 	  driver.get(Constant.URL);
   }
 
   @AfterMethod
-  public void afterClass() {
+  public void aftermethod() {
 	  HomeGOIS.LogOut(driver).click();
   }
   

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="True">
+  <test name="Test">
+    <classes>
+      <class name="automationFramework.TestNgClass_m1"/>
+      <class name="automationFramework.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+ <class name="automationFramework.TestNgClass_m1"/>
+      <class name="automationFramework.NewTest"/>
